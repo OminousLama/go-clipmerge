@@ -27,6 +27,18 @@ sudo apt install ffmpeg
 
 Grab the latest release from the [release page](https://github.com/OminousLama/go-clipmerge/releases/latest).
 
+#### Usage
+
+`clipmerge <output_file> <input_file_1> <input_file_2> <input_file_3> ...`
+
+#### Examples
+
+`clipmerge output.mp4 input1.mp4 input2.mp4 input3.mp4`
+
+This command...
+- takes the files `input1.mp4`, `input2.mp4` and `input3.mp4`
+- merges them
+- and saves the result in `output.mp4`
 
 ## Credits
 
